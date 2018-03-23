@@ -58,7 +58,9 @@
     <Compile Include="Controls\Views\CustomPopup.xaml.cs">
       <DependentUpon>CustomPopup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\BaseConverter.cs" />
     <Compile Include="Helpers\Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Helpers\Converters\StringFormatConverter.cs" />
     <Compile Include="Helpers\DelegateCommand.cs" />
     <Compile Include="Dialogs\ViewModels\PopupContentViewModel.cs" />
     <Compile Include="Dialogs\ViewModels\TestUserControlViewModel.cs" />
